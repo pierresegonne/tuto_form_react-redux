@@ -1,0 +1,13 @@
+
+
+.SaveBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 72px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
