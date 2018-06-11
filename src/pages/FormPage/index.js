@@ -32,11 +32,13 @@ class FormPage extends Component {
         {/* Title */}
         <TextInput
           handleChange={(newValue) => addChange('title', newValue)}
+          title="Title"
           value={formEdit.title}
         />
         {/* Field */}
         <TextInput
           handleChange={(newValue) => addChange('field', newValue)}
+          title="Random Field"
           value={formEdit.field}
         />
         <SaveBar
